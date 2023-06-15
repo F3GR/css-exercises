@@ -73,25 +73,18 @@ button.cancel {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-}
-
-.modal > div {
-  margin: 0 5px;
+  gap: 15px;
 }
 
 .icon {
-  margin: 0;
   flex-shrink: 0;
-}
-
-.left-side > div {
-  margin: 10px 0;
 }
 
 .modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .modal-header .header {
