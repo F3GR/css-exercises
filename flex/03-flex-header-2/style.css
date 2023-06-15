@@ -54,16 +54,11 @@ ul {
   justify-content: space-between;
 }
 
-.left-items {
+.left-items, .right-items-sticky {
   display: flex;
 }
 
 .left-items ul {
   display: flex;
   gap: 2vw;
-  flex-wrap: wrap;
-}
-
-.right-items-sticky {
-  display: flex;
 }
