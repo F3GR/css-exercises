@@ -30,10 +30,11 @@ img {
 
 .plant-images-text {
   display: flex;
+  justify-content: center;
 }
 
 .plant-images-text > div {
-  flex: 1;
+  max-width: 200px;
   text-align: center;
   margin: 35px;
 }
