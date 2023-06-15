@@ -8,6 +8,7 @@ img {
 }
 
 .title {
+  text-align: center; /* me */
   font-size: 36px;
   font-weight: 900;
 }
@@ -23,4 +24,16 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* me */
+
+.plant-images-text {
+  display: flex;
+}
+
+.plant-images-text > div {
+  flex: 1;
+  text-align: center;
+  margin: 35px;
 }
